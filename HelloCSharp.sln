@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2EB7F84-FA8D-4609-BA6F-AFE5FA074B55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7030DA8-9F9F-4DA0-BB06-3CB2663D7221}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloCSharp", "src\HelloCSharp\HelloCSharp.xproj", "{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA8DACE8-CF8E-48AA-B5E9-EC58485415F2} = {F2EB7F84-FA8D-4609-BA6F-AFE5FA074B55}
+	EndGlobalSection
+EndGlobal
